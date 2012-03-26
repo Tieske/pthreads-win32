@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{44ca2ce5-330e-48b0-9010-e7f94463e833}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{f5381f76-28de-4b89-8fe5-6128088360f8}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{86e69287-f757-4144-8c6c-d43e3fb161aa}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pthread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="implement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sched.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="semaphore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="version.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ANNOUNCE" />
+    <None Include="BUGS" />
+    <None Include="ChangeLog" />
+    <None Include="CONTRIBUTORS" />
+    <None Include="COPYING" />
+    <None Include="FAQ" />
+    <None Include="MAINTAINERS" />
+    <None Include="NEWS" />
+    <None Include="PROGRESS" />
+    <None Include="README" />
+    <None Include="README.Borland" />
+    <None Include="README.CV" />
+    <None Include="README.NONPORTABLE" />
+    <None Include="README.Watcom" />
+    <None Include="README.WinCE" />
+    <None Include="TODO" />
+    <None Include="WinCE-PORT" />
+  </ItemGroup>
+</Project>
