@@ -1,3 +1,7 @@
 
 *.suo
 *.user
+*.obj
+*.sdf
+*.idb
+*.pdb
